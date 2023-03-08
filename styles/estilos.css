@@ -1,72 +1,81 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 @font-face {
-    font-family: "bBeachOcean";
-    src: url("../fonts/bBeachOcean.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-  }
-  
-  @font-face {
-    font-family: "RookiePunk";
-    src: url("../fonts/RookiePunk.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-  }
-  
-
-
-
-
-.color_navbar{
-    background: #DCE35B;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #45B649, #DCE35B);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+  font-family: "bBeachOcean";
+  src: url("../fonts/bBeachOcean.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
 }
 
-.color_submenu{
-    background: #FF416C;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+@font-face {
+  font-family: "RookiePunk";
+  src: url("../fonts/RookiePunk.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
 }
 
+.color_navbar {
+  background: #dce35b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #45b649,
+    #dce35b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #45b649,
+    #dce35b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
-.text-decoration{
-    text-decoration: none !important;
+.color_submenu {
+  background: #ff416c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ff4b2b,
+    #ff416c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff4b2b,
+    #ff416c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.text-decoration {
+  text-decoration: none !important;
 }
 
 /* footer */
 
 .footer-style {
-    padding-top: 50px;
-    background-color: #0093E9;
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-
+  padding-top: 50px;
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
 }
 footer {
-    
   color: white;
   font-size: 50px;
-  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000,
+    1px -1px 1px #000;
   -webkit-text-fill-color: white;
-
 }
 footer h3 {
   margin-bottom: px;
-    font-weight: 800;
-    -webkit-text-stroke: 1px black;
+  font-weight: 800;
+  -webkit-text-stroke: 1px black;
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #2C3E50;
+  background-color: #2c3e50;
 }
 footer .footer-col {
   margin-bottom: 50px;
@@ -76,62 +85,233 @@ footer .footer-below {
   background-color: #233140;
 }
 
-
-
-h1{
-    font-family: "RookiePunk";
-    font-size: 60px;
+h1 {
+  font-family: "RookiePunk";
+  font-size: 60px;
 }
 
-
-
-p{
-font-size: 20px;
+p {
+  font-size: 20px;
 }
 
-.letra{
-font-family: "bBeachOcean";
-font-size: 60px;
+.letra {
+  font-family: "bBeachOcean";
+  font-size: 60px;
 }
 
-li{
-    background-color: #DCE35B;
-    padding-left: 12px;
-    border-radius:2em;
-    font-family: "RookiePunk";
-    font-size: 30px;
-  
+li {
+  padding-left: 12px;
+  border-radius: 0.5em;
+  font-family: "RookiePunk";
+  font-size: 10px;
 }
 
-li>a{
-    text-align: center;
-    color: white;
-    font-family: impact;
-    font-size: 30px;
-    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
-    -webkit-text-fill-color: white;
-    -webkit-text-stroke: 1px black;
+li > a {
+  color: white;
+  font-family: impact;
+  font-size: 30px;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000,
+    1px -1px 1px #000;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px black;
 }
 
-li:hover{
-    background-color: #ffffff;
-    transition: background-color 0.5s ease;
+li:hover {
+  background-color: #ffffff;
+  transition: background-color 0.5s ease;
 }
 
-.borde_redondeado{
-    border-radius:2em;
-    padding: 20px;
-    background-color: #DCE35B;
+.borde_redondeado {
+  border-radius: 2em;
+  padding: 20px;
+  margin-right: auto;
 }
 
-a{
-    font-family: "RookiePunk";
+a {
+  font-family: "RookiePunk";
+  font-size: 40px;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000,
+    1px -1px 1px #000;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px black;
+}
+
+p {
+  font-size: 20px;
+}
+
+.margen {
+  margin-bottom: 250px;
+}
+
+#caja {
+  background: #8e2de2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4a00e0,
+    #8e2de2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4a00e0,
+    #8e2de2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border: 10px solid rgb(0, 0, 0);
+  margin: 15px;
+  padding: 20px;
+  display: block;
+  float: left;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+#caja:hover {
+  background: #ff4b2b;
+  transition: background-color 0.5s ease;
+}
+
+#titulo {
+  font-family: "bBeachOcean";
+  font-size: 150px;
+  text-shadow: 0 0 10px black, -1px 1px 0 black, 1px -1px 0 black,
+    -1px 10px 0 black, 10px 10px 0 black;
+  color: greenyellow;
+}
+
+#titulo-principal {
+  font-family: "bBeachOcean";
+  font-size: 50px;
+  text-shadow: 0 0 12px black, -1px 1px 0 black, 1px -7px 0 black,
+    -5px 5px 0 black, 10px 5px 0 black;
+  color: white;
+}
+
+#profesion {
+  font-family: "RookiePunk";
+  font-size: 50px;
+  color: white;
+  text-shadow: 0 0 10px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#minombre {
+  font-family: "RookiePunk";
+  font-size: 50px;
+  color: white;
+  text-shadow: 0 0 10px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#clearfix {
+  float: none;
+  clear: both;
+}
+
+.margen {
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+
+/*Escritorio*/
+@media (min-width: 1199.98px) {
+  #titulo {
+    font-size: 100px;
+  }
+
+  #minombre {
+    font-size: 50px;
+  }
+
+  #profesion {
     font-size: 40px;
-    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
-    -webkit-text-fill-color: white;
-    -webkit-text-stroke: 1px black;
+  }
+
+  #caja {
+    margin: 0px;
+  }
+}
+/*Fin Escritorio*/
+
+/*Tablet*/
+/*Portrait*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation: portrait) {
+  #titulo {
+    font-size: 60px;
+  }
+
+  #minombre {
+    font-size: 40px;
+  }
+
+  #profesion {
+    font-size: 35px;
+  }
+
+  #caja {
+    margin: 0px;
+  }
 }
 
-p{
-    font-size: 20px;
+/*landscape*/
+@media (min0-width: 991.98px) and (max-width: 1199.98px) and (orientation: landscape) {
+  #titulo {
+    font-size: 60px;
+  }
+
+  #minombre {
+    font-size: 40px;
+  }
+
+  #profesion {
+    font-size: 35px;
+  }
+
+  #caja {
+    margin: 0px;
+  }
 }
+/*fin tablet*/
+
+/*movil*/
+/*Portrait*/
+/*Default*/
+@media (max-width: 575.98px) and (orientation: portrait) {
+  #titulo {
+    font-size: 60px;
+  }
+
+  #minombre {
+    font-size: 40px;
+  }
+
+  #profesion {
+    font-size: 35px;
+  }
+
+  #caja {
+    margin: 0px;
+  }
+}
+/*landscape*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation: landscape) {
+  #titulo {
+    font-size: 60px;
+  }
+
+  #minombre {
+    font-size: 40px;
+  }
+
+  #profesion {
+    font-size: 35px;
+  }
+
+  #caja {
+    margin: 0px;
+  }
+}
+/*fin movil*/
